@@ -32,7 +32,7 @@ df = pd.DataFrame([
     dict(Task="Retail Flagship", Start= st.sidebar.date_input('Retail Flagship Start Date', datetime.date(2021,8,15) ), 
          Finish = st.sidebar.date_input('Retail Flagship Finish Date', datetime.date(2022,2,28) ) , Resource="Art_Drop Hub"),
     dict(Task="Classrooms", Start= st.sidebar.date_input('Classroom Start Date', datetime.date(2021,12,5) ), 
-         Finish = st.sidebar.date_input('Classroom Finish Date', datetime.date(2021,1,15) ) , Resource="Art_Drop Hub"),
+         Finish = st.sidebar.date_input('Classroom Finish Date', datetime.date(2022,1,15) ) , Resource="Art_Drop Hub"),
     dict(Task="3D print center", Start='2021-09-30', Finish='2021-10-30', Resource="Art_Drop Hub"),
 ])
 
